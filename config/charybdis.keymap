@@ -47,6 +47,48 @@
             timeout-ms = <60>;
             layers = <0>;
         };
+
+        undo {
+            bindings = <&kp LC(Z)>;
+            key-positions = <37 38>;
+            timeout-ms = <60>;
+            layers = <4>;
+        };
+
+        copy {
+            bindings = <&kp LC(C)>;
+            key-positions = <38 39>;
+            timeout-ms = <60>;
+            layers = <4>;
+        };
+
+        paste {
+            bindings = <&kp LC(V)>;
+            key-positions = <40 39>;
+            timeout-ms = <60>;
+            layers = <4>;
+        };
+
+        cut {
+            bindings = <&kp LC(X)>;
+            key-positions = <40 38>;
+            timeout-ms = <60>;
+            layers = <4>;
+        };
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <28 27>;
+            timeout-ms = <60>;
+            layers = <0 4>;
+        };
+
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <31 32>;
+            timeout-ms = <60>;
+            layers = <0 4>;
+        };
     };
 
     macros {
