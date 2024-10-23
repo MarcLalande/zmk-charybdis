@@ -9,32 +9,43 @@
         less_then {
             bindings = <&kp LESS_THAN>;
             key-positions = <43 44>;
+            timeout-ms = <60>;
+            layers = <0 1 4 5>;
         };
 
         greater_then {
             bindings = <&kp GREATER_THAN>;
             key-positions = <44 45>;
             timeout-ms = <60>;
+            layers = <0 1 4 5>;
         };
 
         zx_undo {
             bindings = <&kp LG(Z)>;
             key-positions = <37 38>;
+            timeout-ms = <60>;
+            layers = <0>;
         };
 
         xc_copy {
             bindings = <&kp LG(C)>;
             key-positions = <38 39>;
+            timeout-ms = <60>;
+            layers = <0>;
         };
 
         cv_paste {
             bindings = <&kp LG(V)>;
             key-positions = <40 39>;
+            timeout-ms = <60>;
+            layers = <0>;
         };
 
         xv_cute {
             bindings = <&kp LG(X)>;
             key-positions = <40 38>;
+            timeout-ms = <60>;
+            layers = <0>;
         };
     };
 
