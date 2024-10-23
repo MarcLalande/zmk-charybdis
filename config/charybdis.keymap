@@ -89,6 +89,13 @@
             timeout-ms = <60>;
             layers = <0 4>;
         };
+
+        vim_search {
+            bindings = <&vim_search>;
+            key-positions = <28 27>;
+            timeout-ms = <60>;
+            layers = <2 6>;
+        };
     };
 
     macros {
@@ -98,6 +105,20 @@
             bindings = <&kp CAPSLOCK>;
             label = "CAPS";
             tap-ms = <200>;
+        };
+
+        my_email: my_email {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp B &kp L &kp A &kp C &kp K &kp E &kp A &kp G &kp L &kp E &kp N1 &kp N0 &kp AT &kp I &kp C &kp L &kp O &kp U &kp D &kp DOT &kp C &kp O &kp M>;
+            label = "MY_EMAIL";
+        };
+
+        vim_search: vim_search {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp COLON &kp PRCNT &kp S &kp FSLH>;
+            label = "VIM_SEARCH";
         };
     };
 
