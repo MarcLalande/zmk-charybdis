@@ -16,6 +16,26 @@
             key-positions = <44 45>;
             timeout-ms = <60>;
         };
+
+        zx_undo {
+            bindings = <&kp LG(Z)>;
+            key-positions = <37 38>;
+        };
+
+        xc_copy {
+            bindings = <&kp LG(C)>;
+            key-positions = <38 39>;
+        };
+
+        cv_paste {
+            bindings = <&kp LG(V)>;
+            key-positions = <40 39>;
+        };
+
+        xv_cute {
+            bindings = <&kp LG(X)>;
+            key-positions = <40 38>;
+        };
     };
 
     macros {
