@@ -76,20 +76,6 @@
             layers = <4>;
         };
 
-        esc {
-            bindings = <&kp ESCAPE>;
-            key-positions = <28 27>;
-            timeout-ms = <60>;
-            layers = <0 4>;
-        };
-
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <31 32>;
-            timeout-ms = <60>;
-            layers = <0 4>;
-        };
-
         vim_search {
             bindings = <&vim_search>;
             key-positions = <28 27>;
