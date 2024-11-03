@@ -109,6 +109,16 @@
     };
 
     behaviors {
+        new_mt: new_mt {
+            compatible = "zmk,behavior-hold-tap";
+            label = "NEW_MT";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+            quick-tap-ms = <200>;
+        };
+        
         new_lt: new_lt {
             compatible = "zmk,behavior-hold-tap";
             label = "NEW_LT";
@@ -140,16 +150,6 @@
             tapping-term-ms = <200>;
             flavor = "balanced";
             hold-trigger-key-positions = <12 13 14 15 16 17 24 25 26 27 28 29 36 37 38 39 40 41 48 49 50 31 32 33 34 52 51 0>;
-            quick-tap-ms = <200>;
-        };
-
-        new_mt: new_mt {
-            compatible = "zmk,behavior-hold-tap";
-            label = "NEW_MT";
-            bindings = <&kp>, <&kp>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
             quick-tap-ms = <200>;
         };
     };
