@@ -176,14 +176,14 @@
 &trans  &kp EXCLAMATION  &kp AT            &kp HASH           &kp DOLLAR      &kp PERCENT        &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
 &trans  &kp N1           &kp N2            &kp N3             &kp N4          &kp N5             &kp N6     &kp N7         &kp N8        &kp N9                &kp N0                 &kp DOUBLE_QUOTES
 &trans  &none            &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE    &kp UNDER  &kp MINUS      &kp PLUS      &trans                &kp EQUAL              &trans
-                                           &trans             &trans          &none              &mo 3      &trans
+                                           &trans             &mo 8           &none              &mo 3      &trans
                                                               &none           &none              &none
             >;
         };
 
         layer_2 {
             bindings = <
-&trans  &none   &none    &none    &none    &none              &none           &none           &none            &none            &none                 &none
+&mo 8   &none   &none    &none    &none    &none              &none           &none           &none            &none            &none                 &none
 &trans  &kp F9  &kp F10  &kp F11  &kp F12  &none              &kp C_MUTE      &kp PAGE_UP     &kp PAGE_DOWN    &kp C_PLAY       &kp DELETE            &trans
 &trans  &kp F5  &kp F6   &kp F7   &kp F8   &kp HOME           &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP           &kp RIGHT_ARROW  &kp C_BRIGHTNESS_INC  &trans
 &trans  &kp F1  &kp F2   &kp F3   &kp F4   &kp END            &kp C_PREVIOUS  &kp C_VOL_DN    &kp C_VOLUME_UP  &kp C_NEXT       &kp C_BRIGHTNESS_DEC  &trans
@@ -220,14 +220,14 @@
 &trans  &kp EXCLAMATION  &kp AT            &kp HASH           &kp DOLLAR      &kp PERCENT        &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
 &trans  &kp N1           &kp N2            &kp N3             &kp N4          &kp N5             &kp N6     &kp N7         &kp N8        &kp N9                &kp N0                 &kp DOUBLE_QUOTES
 &trans  &none            &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE    &kp UNDER  &kp MINUS      &kp PLUS      &trans                &kp EQUAL              &trans
-                                           &trans             &trans          &none              &mo 7      &trans
+                                           &trans             &mo 8           &none              &mo 7      &trans
                                                               &none           &none              &none
             >;
         };
 
         layer_6 {
             bindings = <
-&trans  &none   &none    &none    &none    &none              &none           &none           &none            &none            &none                 &none
+&mo 8   &none   &none    &none    &none    &none              &none           &none           &none            &none            &none                 &none
 &trans  &kp F9  &kp F10  &kp F11  &kp F12  &none              &kp C_MUTE      &kp PAGE_UP     &kp PAGE_DOWN    &kp C_PLAY       &kp DELETE            &trans
 &trans  &kp F5  &kp F6   &kp F7   &kp F8   &kp HOME           &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP           &kp RIGHT_ARROW  &kp C_BRIGHTNESS_INC  &trans
 &trans  &kp F1  &kp F2   &kp F3   &kp F4   &kp END            &kp C_PREVIOUS  &kp C_VOL_DN    &kp C_VOLUME_UP  &kp C_NEXT       &kp C_BRIGHTNESS_DEC  &trans
@@ -244,6 +244,17 @@
 &bootloader  &kp LS(LC(F))  &kp LS(LC(O))     &kp LS(LA(R))     &kp LS(LA(S))      &none          &none       &kp LA(F4)     &kp PRINTSCREEN  &kp LS(LC(G))  &kp LS(LA(F))  &bootloader
                                               &trans            &trans             &trans         &trans      &trans
                                                                 &none              &none          &none
+            >;
+        };
+
+        layer_8 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans         &trans       &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &bootloader    &bootloader  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans         &trans       &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans         &trans       &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans         &trans       &trans
+                                &trans  &trans         &trans
             >;
         };
     };
