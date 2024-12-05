@@ -25,57 +25,57 @@
             layers = <0 1 4 5>;
         };
 
-        zx_undo {
+        mac_undo {
             bindings = <&kp LG(Z)>;
             key-positions = <37 38>;
             timeout-ms = <60>;
             layers = <0>;
         };
 
-        xc_copy {
+        mac_copy {
             bindings = <&kp LG(C)>;
             key-positions = <38 39>;
             timeout-ms = <60>;
             layers = <0>;
         };
 
-        cv_paste {
+        mac_paste {
             bindings = <&kp LG(V)>;
             key-positions = <40 39>;
             timeout-ms = <60>;
             layers = <0>;
         };
 
-        xv_cute {
-            bindings = <&ctrl_x>;
+        mac_cut {
+            bindings = <&kp LG(X)>;
             key-positions = <40 38>;
             timeout-ms = <60>;
             layers = <0>;
         };
 
-        undo {
+        win_undo {
             bindings = <&kp LC(Z)>;
             key-positions = <37 38>;
             timeout-ms = <60>;
             layers = <4>;
         };
 
-        copy {
+        win_copy {
             bindings = <&kp LC(C)>;
             key-positions = <38 39>;
             timeout-ms = <60>;
             layers = <4>;
         };
 
-        paste {
+        win_paste {
             bindings = <&kp LC(V)>;
             key-positions = <40 39>;
             timeout-ms = <60>;
             layers = <4>;
         };
 
-        cut {
-            bindings = <&kp LC(X)>;
+        win_cut {
+            bindings = <&ctrl_x>;
             key-positions = <40 38>;
             timeout-ms = <60>;
             layers = <4>;
