@@ -47,7 +47,7 @@
         };
 
         xv_cute {
-            bindings = <&kp LG(X)>;
+            bindings = <&ctrl_x>;
             key-positions = <40 38>;
             timeout-ms = <60>;
             layers = <0>;
@@ -110,6 +110,20 @@
             #binding-cells = <0>;
             bindings = <&kp COLON &kp PRCNT &kp S &kp FSLH>;
             label = "VIM_SEARCH";
+        };
+
+        double_shift: double_shift {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_SHIFT &kp LEFT_SHIFT>;
+            label = "DOUBLE_SHIFT";
+        };
+
+        ctrl_x: ctrl_x {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(X)>;
+            label = "CTRL_X";
         };
     };
 
@@ -245,12 +259,12 @@
 
         layer_7 {
             bindings = <
-&trans     &none          &none             &none             &none              &none            &none         &none          &none            &none          &none          &none
-&my_email  &kp LA(LC(L))  &kp LA(NUMBER_1)  &kp LA(NUMBER_6)  &kp LA(NUMBER_4)   &kp LS(F10)      &bt BT_SEL 0  &bt BT_SEL 1   &bt BT_SEL 2     &bt BT_SEL 3   &bt BT_SEL 4   &bt BT_CLR
-&to 0      &kp LS(LA(Q))  &kp F12           &kp LC(PAGE_UP)   &kp LC(PAGE_DOWN)  &kp LC(F11)      &kp LC(F5)    &kp LC(GRAVE)  &kp LS(LC(M))    &kp LS(LC(E))  &kp LS(LC(P))  &none
-&none      &kp LS(LC(F))  &kp LS(LC(O))     &kp LS(LA(R))     &kp LS(LA(S))      &kp LS(LC(R))    &none         &kp LA(F4)     &kp PRINTSCREEN  &kp LS(LC(G))  &kp LS(LA(F))  &none
-                                            &trans            &trans             &trans           &trans        &trans
-                                                              &none              &none            &none
+&trans     &none           &none             &none             &none              &none     &none         &none          &none            &none          &none          &none
+&my_email  &kp LC(LA(S))   &kp LA(NUMBER_1)  &kp LA(NUMBER_6)  &kp LA(NUMBER_4)   &none     &bt BT_SEL 0  &bt BT_SEL 1   &bt BT_SEL 2     &bt BT_SEL 3   &bt BT_SEL 4   &bt BT_CLR
+&to 0      &kp LA(INSERT)  &kp LC(LA(L))     &kp LC(PAGE_UP)   &kp LC(PAGE_DOWN)  &none     &kp LC(F5)    &kp LC(GRAVE)  &kp LS(LC(M))    &kp LS(LC(E))  &kp LS(LC(P))  &none
+&none      &kp LA(F7)      &kp LS(F6)        &double_shift     &kp LS(F10)        &none     &none         &kp LA(F4)     &kp PRINTSCREEN  &kp LS(LC(G))  &kp LS(LA(F))  &none
+                                             &trans            &trans             &trans    &trans        &trans
+                                                               &none              &none     &none
             >;
         };
 
