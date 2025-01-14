@@ -202,7 +202,7 @@
 &trans     &none          &none             &none             &none              &none         &none                 &none                 &none           &none          &none          &none
 &my_email  &kp LS(LG(A))  &kp LG(NUMBER_1)  &kp LG(NUMBER_6)  &kp LG(NUMBER_8)   &none         &bt BT_SEL 0          &bt BT_SEL 1          &bt BT_SEL 2    &bt BT_SEL 3   &bt BT_SEL 4   &bt BT_CLR
 &none      &kp LG(N)      &kp LA(LG(L))     &kp LC(PAGE_UP)   &kp LC(PAGE_DOWN)  &none         &kp LC(F5)            &kp LC(GRAVE)         &kp LS(LG(M))   &kp LS(LG(E))  &kp LS(LG(P))  &to 4
-&none      &kp LA(F7)     &kp LS(F6)        &double_shift     &kp LC(LA(R))      &kp LS(F2)    &kp LS(LG(NUMBER_3))  &kp LS(LG(NUMBER_4))  &kp LS(LG(N5))  &kp LS(LC(G))  &kp LS(LA(F))  &none
+&none      &kp LA(F7)     &kp LS(F6)        &double_shift     &kp LC(LA(R))      &kp LS(F2)    &kp LS(LG(NUMBER_3))  &kp LS(LG(NUMBER_4))  &kp LS(LG(N5))  &kp LS(LC(F))  &kp LS(LA(F))  &none
                                             &trans            &trans             &trans        &trans                &trans
                                                               &none              &none         &none
             >;
@@ -246,7 +246,7 @@
 &trans     &none           &none             &none             &none              &none     &none          &none          &none            &none          &none          &none
 &my_email  &kp LC(LA(S))   &kp LA(NUMBER_1)  &kp LA(NUMBER_6)  &kp LA(NUMBER_8)   &none     &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2     &bt BT_SEL 3   &bt BT_SEL 4   &bt BT_CLR
 &to 0      &kp LA(INSERT)  &kp LC(LA(L))     &kp LC(PAGE_UP)   &kp LC(PAGE_DOWN)  &none     &kp LC(F5)     &kp LC(GRAVE)  &kp LS(LC(M))    &kp LS(LC(E))  &kp LS(LC(P))  &none
-&none      &kp LA(F7)      &kp LS(F6)        &double_shift     &kp LS(F10)        &none     &triple_shift  &kp LA(F4)     &kp PRINTSCREEN  &kp LS(LC(G))  &kp LS(LA(F))  &none
+&none      &kp LA(F7)      &kp LS(F6)        &double_shift     &kp LS(F10)        &none     &triple_shift  &kp LA(F4)     &kp PRINTSCREEN  &kp LS(LC(F))  &kp LS(LA(F))  &none
                                              &trans            &trans             &trans    &trans         &trans
                                                                &none              &none     &none
             >;
