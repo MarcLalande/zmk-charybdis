@@ -70,6 +70,11 @@
             timeout-ms = <60>;
             layers = <4>;
         };
+
+        jk_ctrl_y {
+            bindings = <&kp LC(Y)>;
+            key-positions = <31 32>;
+        };
     };
 
     macros {
